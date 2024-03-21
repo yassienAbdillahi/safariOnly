@@ -1,0 +1,14 @@
+div {
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 150px;
+}
+
+/* Safari 17.0 and up */
+
+_::-webkit-full-page-media,
+_:future,
+:root .safari_only {
+    background-color: red !important;
+}
